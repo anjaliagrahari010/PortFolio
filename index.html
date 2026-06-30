@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali Agrahari | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Font Awesome 6 (for LeetCode icon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Anjali Agrahari</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto gap-lg-2">
+                    <li class="nav-item"><a class="nav-link nav-item-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link nav-item-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link nav-item-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link nav-item-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════ HERO / ABOUT ═══════════════════════════ -->
+    <section id="home" class="about">
+        <div class="about-container">
+
+            <!-- Left: Photo -->
+            <div class="about-image" data-aos="fade-right" data-aos-duration="900">
+                <img src="img/anjali.png" alt="Anjali Agrahari">
+            </div>
+
+            <!-- Right: Content -->
+            <div class="about-content" data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+
+                <p class="about-subtitle">👋 Get To Know Me</p>
+
+                <h1 class="about-heading">
+                    Hi, I'm <span class="highlight">Anjali Agrahari</span>
+                </h1>
+
+                <h2 class="about-role">
+                    I'm a <span id="typed"></span><span class="cursor-blink">|</span>
+                </h2>
+
+                <p>
+                    A passionate MCA student at <span class="highlight">AKTU</span> with a strong interest in
+                    Web Development and Problem Solving, actively targeting
+                    <span class="highlight">SAP Consulting</span> roles.
+                </p>
+
+                <p>
+                    I build responsive and user-friendly web apps while sharpening my DSA skills
+                    through consistent <span class="highlight">LeetCode</span> practice.
+                    I enjoy working on real-world projects that have genuine impact.
+                </p>
+
+                <!-- Stats -->
+                <div class="about-info">
+                    <div>
+                        <h3>100+</h3>
+                        <span>DSA Problems</span>
+                    </div>
+                    <div>
+                        <h3>5+</h3>
+                        <span>Technologies</span>
+                    </div>
+                    <div>
+                        <h3>2+</h3>
+                        <span>Projects Built</span>
+                    </div>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="d-flex gap-3 mb-4 flex-wrap">
+                    <a href="https://www.linkedin.com/in/anjali-agrahari-1527ya04/" target="_blank" class="social-icon-btn" title="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/anjaliagrahari010" target="_blank" class="social-icon-btn" title="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/anjali_agrahari_010/" target="_blank" class="social-icon-btn" title="LeetCode">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="d-flex gap-3 flex-wrap">
+                    <a href="img/Resume/My Resume.pdf" download="Anjali_Agrahari_Resume.pdf" class="btn-hero-primary">
+                        <i class="bi bi-download me-2"></i>Download Resume
+                    </a>
+                    <a href="#contact" class="btn-hero-outline">
+                        <i class="bi bi-envelope me-2"></i>Contact Me
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+    <section id="skills" class="py-5 skills-section">
+        <div class="container">
+            <p class="section-label text-center">What I Know</p>
+            <h2 class="section-title text-center mb-5">My Skills</h2>
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="skill-card h-100">
+                        <div class="skill-card-header">
+                            <i class="bi bi-code-slash"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-badge">C++</span>
+                            <span class="skill-badge">C</span>
+                            <span class="skill-badge">Core Java</span>
+                            <span class="skill-badge">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-card h-100">
+                        <div class="skill-card-header">
+                            <i class="bi bi-layout-text-window-reverse"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                            <span class="skill-badge">Bootstrap</span>
+                            <span class="skill-badge">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-card h-100">
+                        <div class="skill-card-header">
+                            <i class="bi bi-server"></i>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Django</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="skill-card h-100">
+                        <div class="skill-card-header">
+                            <i class="bi bi-diagram-3"></i>
+                            <h3>DSA</h3>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-badge">Arrays</span>
+                            <span class="skill-badge">Strings</span>
+                            <span class="skill-badge">Linked Lists</span>
+                            <span class="skill-badge">Stacks & Queues</span>
+                            <span class="skill-badge">Trees</span>
+                            <span class="skill-badge">Hashing</span>
+                            <span class="skill-badge">Recursion</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-card h-100">
+                        <div class="skill-card-header">
+                            <i class="bi bi-tools"></i>
+                            <h3>Tools</h3>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-badge">GitHub</span>
+                            <span class="skill-badge">VS Code</span>
+                            <span class="skill-badge">SAP ABAP</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+    <section id="projects" class="py-5 projects-section">
+        <div class="container">
+            <p class="section-label text-center">What I've Built</p>
+            <h2 class="section-title text-center mb-5">Projects</h2>
+
+            <!-- Project 1 -->
+            <div class="project-card mb-5" data-aos="fade-up">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6 p-3">
+                        <div id="projectCarousel1" class="carousel slide rounded-4 overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-inner rounded-4">
+                                <div class="carousel-item active"><img src="img/1.png" class="d-block w-100" alt="College2Career"></div>
+                                <div class="carousel-item"><img src="img/Screenshot (63).png" class="d-block w-100" alt=""></div>
+                                <div class="carousel-item"><img src="img/Screenshot (64).png" class="d-block w-100" alt=""></div>
+                                <div class="carousel-item"><img src="img/Screenshot (65).png" class="d-block w-100" alt=""></div>
+                                <div class="carousel-item"><img src="img/Screenshot (66).png" class="d-block w-100" alt=""></div>
+                                <div class="carousel-item"><img src="img/Screenshot (67).png" class="d-block w-100" alt=""></div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-4">
+                        <span class="project-eyebrow">Featured Project</span>
+                        <h3 class="project-title">College2Career</h3>
+                        <p class="project-desc">
+                            A complete placement portal built with Django where students register,
+                            upload resumes, and apply for jobs — while companies post and manage opportunities.
+                        </p>
+                        <p class="tech-label">Tech Stack</p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Django</span>
+                            <span class="tech-badge">Bootstrap</span>
+                            <span class="tech-badge">SQLite</span>
+                        </div>
+                        <ul class="feature-list mb-4">
+                            <li><i class="bi bi-check-circle-fill"></i>Student & Company Dashboards</li>
+                            <li><i class="bi bi-check-circle-fill"></i>Resume Builder</li>
+                            <li><i class="bi bi-check-circle-fill"></i>Placement Tracking</li>
+                            <li><i class="bi bi-check-circle-fill"></i>Email Verification</li>
+                        </ul>
+                        <a href="https://github.com/anjaliagrahari010/College2Career" target="_blank" class="btn-project">
+                            <i class="bi bi-github me-2"></i>View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card mb-5" data-aos="fade-up" data-aos-delay="100">
+                <div class="row g-0 align-items-center flex-lg-row-reverse">
+                    <div class="col-lg-6 p-3">
+                        <div id="projectCarousel2" class="carousel slide rounded-4 overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-inner rounded-4">
+                                <div class="carousel-item active"><img src="img/2a.png" class="d-block w-100" alt="SMS ERP"></div>
+                                <div class="carousel-item"><img src="img/2b.png" class="d-block w-100" alt=""></div>
+                                <div class="carousel-item"><img src="img/2c.png" class="d-block w-100" alt=""></div>
+                                <div class="carousel-item"><img src="img/2d.png" class="d-block w-100" alt=""></div>
+                                <div class="carousel-item"><img src="img/2e.png" class="d-block w-100" alt=""></div>
+                                <div class="carousel-item"><img src="img/2f.png" class="d-block w-100" alt=""></div>
+                                <div class="carousel-item"><img src="img/2g.png" class="d-block w-100" alt=""></div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-4">
+                        <span class="project-eyebrow">Featured Project</span>
+                        <h3 class="project-title">SMS (School ERP)</h3>
+                        <p class="project-desc">
+                            A comprehensive School ERP System to simplify administration — managing students,
+                            teachers, classes, subjects, attendance, and enquiries through a centralized dashboard.
+                        </p>
+                        <p class="tech-label">Tech Stack</p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Django</span>
+                            <span class="tech-badge">Bootstrap</span>
+                            <span class="tech-badge">SQLite</span>
+                        </div>
+                        <ul class="feature-list mb-4 row">
+                            <li class="col-6"><i class="bi bi-check-circle-fill"></i>Role-Based Dashboards</li>
+                            <li class="col-6"><i class="bi bi-check-circle-fill"></i>Admin / Teacher / Student</li>
+                            <li class="col-6"><i class="bi bi-check-circle-fill"></i>Class & Subject Mgmt</li>
+                            <li class="col-6"><i class="bi bi-check-circle-fill"></i>Attendance Tracking</li>
+                            <li class="col-6"><i class="bi bi-check-circle-fill"></i>Teacher Assignment</li>
+                            <li class="col-6"><i class="bi bi-check-circle-fill"></i>Enquiry Management</li>
+                        </ul>
+                        <a href="https://github.com/anjaliagrahari010/SMS-School-ERP" target="_blank" class="btn-project">
+                            <i class="bi bi-github me-2"></i>View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+    <section id="contact" class="py-5 contact-section">
+        <div class="container">
+            <p class="section-label text-center">Let's Talk</p>
+            <h2 class="section-title text-center mb-2">Get In Touch</h2>
+            <p class="text-center text-secondary mb-5">Feel free to reach out for opportunities, collaborations, or just a hello!</p>
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- Info Cards -->
+                <div class="col-lg-4">
+                    <div class="d-flex flex-column gap-3">
+
+                        <div class="contact-card" data-aos="fade-right" data-aos-delay="0">
+                            <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <a href="mailto:anjaliagrahari38@gmail.com" class="contact-link">anjaliagrahari38@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card" data-aos="fade-right" data-aos-delay="100">
+                            <div class="contact-icon"><i class="bi bi-linkedin"></i></div>
+                            <div>
+                                <p class="contact-label">LinkedIn</p>
+                                <a href="https://www.linkedin.com/in/anjali-agrahari-1527ya04/" target="_blank" class="contact-link">linkedin.com/in/anjali-agrahari</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card" data-aos="fade-right" data-aos-delay="200">
+                            <div class="contact-icon"><i class="bi bi-github"></i></div>
+                            <div>
+                                <p class="contact-label">GitHub</p>
+                                <a href="https://github.com/anjaliagrahari010" target="_blank" class="contact-link">github.com/anjaliagrahari010</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card" data-aos="fade-right" data-aos-delay="300">
+                            <div class="contact-icon"><i class="fa-solid fa-code"></i></div>
+                            <div>
+                                <p class="contact-label">LeetCode</p>
+                                <a href="https://leetcode.com/u/anjali_agrahari_010/" target="_blank" class="contact-link">leetcode.com/anjali_agrahari_010</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card" data-aos="fade-right" data-aos-delay="400">
+                            <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <p class="contact-label">Location</p>
+                                <p class="contact-link mb-0">Uttar Pradesh, India</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="contact-form-card">
+
+                        <div class="mb-3">
+                            <label class="form-label contact-form-label">YOUR NAME</label>
+                            <input type="text" id="f-name"
+                                   class="form-control contact-input"
+                                   placeholder="Anjali Agrahari">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label contact-form-label">EMAIL ADDRESS</label>
+                            <input type="email" id="f-email"
+                                   class="form-control contact-input"
+                                   placeholder="you@example.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label contact-form-label">SUBJECT</label>
+                            <input type="text" id="f-subject"
+                                   class="form-control contact-input"
+                                   placeholder="Job Opportunity / Collaboration / Hello">
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label contact-form-label">MESSAGE</label>
+                            <textarea id="f-message"
+                                      class="form-control contact-input"
+                                      rows="5"
+                                      placeholder="Hi Anjali, I'd like to connect about..."></textarea>
+                        </div>
+
+                        <button type="button" class="btn-send w-100" onclick="handleSubmit()">
+                            <i class="bi bi-send-fill me-2"></i>Send Message
+                        </button>
+
+                        <div id="form-success" class="alert alert-success mt-3 d-none rounded-3" role="alert">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            Message sent! I'll get back to you soon.
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="footer-brand">Anjali Agrahari</span>
+                    <span class="text-secondary ms-2 small">© 2025 · All rights reserved</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://github.com/anjaliagrahari010" target="_blank" class="footer-icon"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/anjali-agrahari-1527ya04/" target="_blank" class="footer-icon"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://leetcode.com/u/anjali_agrahari_010/" target="_blank" class="footer-icon"><i class="fa-solid fa-code"></i></a>
+                    <a href="mailto:anjaliagrahari38@gmail.com" class="footer-icon"><i class="bi bi-envelope-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        // AOS Init
+        AOS.init({ duration: 800, once: true });
+
+        // Smooth scroll for all nav links
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', function (e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Navbar scrolled state
+        window.addEventListener('scroll', () => {
+            document.querySelector('.custom-navbar').classList.toggle('scrolled', window.scrollY > 60);
+        });
+
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(s => {
+                if (window.scrollY >= s.offsetTop - 80) current = s.getAttribute('id');
+            });
+            document.querySelectorAll('.nav-item-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+            });
+        });
+
+        // Typing effect
+        const roles = ["Web Developer", "Django Developer", "SAP Consultant", "Problem Solver"];
+        let ri = 0, ci = 0, deleting = false;
+        const el = document.getElementById('typed');
+        function type() {
+            const word = roles[ri];
+            el.textContent = deleting ? word.substring(0, ci - 1) : word.substring(0, ci + 1);
+            deleting ? ci-- : ci++;
+            if (!deleting && ci === word.length) { deleting = true; setTimeout(type, 1600); return; }
+            if (deleting && ci === 0) { deleting = false; ri = (ri + 1) % roles.length; }
+            setTimeout(type, deleting ? 55 : 100);
+        }
+        type();
+
+        // Contact form submit
+        function handleSubmit() {
+            const name    = document.getElementById('f-name').value.trim();
+            const email   = document.getElementById('f-email').value.trim();
+            const subject = document.getElementById('f-subject').value.trim();
+            const message = document.getElementById('f-message').value.trim();
+            if (!name || !email || !message) {
+                alert("Please fill in Name, Email, and Message.");
+                return;
+            }
+            const success = document.getElementById('form-success');
+            success.classList.remove('d-none');
+            setTimeout(() => success.classList.add('d-none'), 4000);
+            document.getElementById('f-name').value = '';
+            document.getElementById('f-email').value = '';
+            document.getElementById('f-subject').value = '';
+            document.getElementById('f-message').value = '';
+        }
+    </script>
+</body>
+</html>
